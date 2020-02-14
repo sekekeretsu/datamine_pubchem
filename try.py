@@ -12,7 +12,7 @@ soup=BeautifulSoup(page.content,'html.parser')
 #html=list(soup.children)[]
 #print(list(html.children))
 print(soup.get_text())
-f=open("outpur.txt","w+")
+f=open("output.txt","w+")
 f.write(soup.get_text())
 f.close()
 
